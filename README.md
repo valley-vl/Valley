@@ -1,13 +1,9 @@
 # ⛰️Valley: Video Assistant with Large Language model Enhanced abilitY
 Understanding Complex Videos Relying on Large Language and Vision Models
 
-
-[[Project Page](https://valley-vl.github.io/)] [[Paper](https://arxiv.org/pdf/2306.07207.pdf)]
-
 The online demo is no longer available, because we released the code for offline demo deployment
 
 **Video Assistant with Large Language model Enhanced abilitY** <br>
-[Ruipu Luo*](https://github.com/RupertLuo), [Ziwang Zhao*](), [Min Yang*](https://github.com/feymanpriv) (*Equal Contribution)
 
 <p align="center">
     <img src="valley/logo/lama_with_valley.jpeg" width="100%"><br>
@@ -33,10 +29,7 @@ The online demo is no longer available, because we released the code for offline
 
 ## Install
 1. Clone this repository and navigate to Valley folder
-```
-git clone https://github.com/RupertLuo/Valley.git
-cd Valley
-```
+
 2. Install Package
 ```
 conda create -n valley python=3.10 -y
@@ -141,16 +134,3 @@ bash valley/train/train.sh valley/configs/experiment/valley_stage2.yaml
 ## Acknowledgement
 
 - [LLaVA](https://github.com/haotian-liu/LLaVA) & [MOSS](https://github.com/OpenLMLab/MOSS): Thanks to these two repositories for providing high-quality code, our code is based on them.
-## Citation
-If the project is helpful to your research, please consider citing our paper as follows
-
-```bibtex
-@misc{luo2023valley,
-      title={Valley: Video Assistant with Large Language model Enhanced abilitY},
-      author={Ruipu Luo and Ziwang Zhao and Min Yang and Junwei Dong and Minghui Qiu and Pengcheng Lu and Tao Wang and Zhongyu Wei},
-      year={2023},
-      eprint={2306.07207},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
